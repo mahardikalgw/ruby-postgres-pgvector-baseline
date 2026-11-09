@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "postgres-pgvector-baseline": {
-      "source": "mahardikalgw/postgres-pgvector-baseline",
+      "source": "mahardikalgw/ruby-postgres-pgvector-baseline",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/postgres-pgvector-baseline.git
-ln -s "$PWD/postgres-pgvector-baseline" .claude/skills/postgres-pgvector-baseline
+git clone git@github.com:mahardikalgw/ruby-postgres-pgvector-baseline.git
+ln -s "$PWD/ruby-postgres-pgvector-baseline" .claude/skills/postgres-pgvector-baseline
 ```
 
 ## When to activate
@@ -40,8 +40,9 @@ ln -s "$PWD/postgres-pgvector-baseline" .claude/skills/postgres-pgvector-baselin
 ## What's inside
 
 ```
-postgres-pgvector-baseline/
+ruby-postgres-pgvector-baseline/
   SKILL.md
+  bin/check-skill
   references/databases.md
 ```
 
@@ -60,8 +61,8 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`merge-gate-parity`](https://github.com/mahardikalgw/merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
-- [`rag-knowledge-loop`](https://github.com/mahardikalgw/rag-knowledge-loop) — approved corpus, fused retrieval, reply guardrails, offline test doubles
+- [`merge-gate-parity`](https://github.com/mahardikalgw/ruby-merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
+- [`rag-knowledge-loop`](https://github.com/mahardikalgw/ruby-rag-knowledge-loop) — approved corpus, fused retrieval, reply guardrails, offline test doubles
 
 ## Licence
 
